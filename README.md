@@ -1,6 +1,6 @@
 # Context
 
-This code and data was used to produce the modeling results presented in "Unsupervised Transient Light Curve Analysis Via Hierarchical Bayesian Inference" by Sanders, Betancourt, and Soderberg (arXiv:1404.3619).  It is closely related to the code used to generate the results in "Towards Characterization Of The Type IIp Supernova Progenitor Population: A Statistical Sample Of Light Curves From Pan-STARRS1" by Sanders, Soderberg, et al. (arXiv:1404.2004v2).
+This code and data was used to produce the modeling results presented in ["Unsupervised Transient Light Curve Analysis Via Hierarchical Bayesian Inference" by Sanders, Betancourt, and Soderberg (arXiv:1404.3619)](https://arxiv.org/pdf/1404.3619.pdf).  It is closely related to the code used to generate the results in ["Towards Characterization Of The Type IIp Supernova Progenitor Population: A Statistical Sample Of Light Curves From Pan-STARRS1" by Sanders, Soderberg, et al. (arXiv:1404.2004v2)](https://arxiv.org/pdf/1404.2004.pdf).
 
 # Warning
 

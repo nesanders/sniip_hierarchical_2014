@@ -2383,7 +2383,6 @@ LCpars = np.load('PS1_lcfitpars_u3.npy').item(0)
 ttype = np.load('PS1_ttype6.npy').item(0)
 ttype_u = np.load('PS1_ttype_u2.npy').item(0)
 pso_name_dict = np.load('PS1_names.npy').item(0)
-pso_coords_dict = np.load('PS1_coords.npy').item(0)
 pso_shortname_dict = np.load('PS1_shortnames.npy').item(0)
 
 

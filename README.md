@@ -14,6 +14,6 @@ All python code is for `python2`.  Unfortunately, I do not have a frozen record 
 
 * `analyze.py` is the primary entrypoint to this code and generates all plots associated with the fitted Stan model.
 * `utils.py` is a library of constant and function definitions referenced in the analysis file. The function `pystan_SPII_tm` is used for model fitting and the `runstan` wrapper does some associated data preprocessing and configuration. 
-* `allphot_5.npy.tar.gz` is a gzipped serialized numpy array (with named columns) containing the processed Pan-STARRS1 Medium Deep Survey photometry modeled.
+* `allphot_galex_5.npy.tar.gz` is a gzipped serialized numpy array (with named columns) containing the processed Pan-STARRS1 Medium Deep Survey photometry modeled.
 * `mod7_4.tar.gz` is a gzipped directory containing the `CmdStan` output traces for the fitted model. I believe these outputs were generated with, roughly, several parallel independent model fits generated with this command: `runstan(model='SIIP_t_multilevel_mod7.stan', nobjs='all', samples=50, chains=2, parallel=2, thin=1, sinit='0', delta=0.8, max_treedepth=18, startstep=1e-3)`
 * `SIIP_t_multilevel_mod7_2.stan`: The `Stan` model code associated with the final model fit. The published version in the paper appendix should be considered the authoritative version; I believe this file is equivalent.
